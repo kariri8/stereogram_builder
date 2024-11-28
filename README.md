@@ -56,7 +56,7 @@ Generate a stereogram from an input image:
    python stereogram_generator.py show_stereogram <input_image> <output_image>
    ```
    - `<input_image>`: Path to the input image file (e.g., `example.jpg`).
-   - `<output_image>`: Path to save the output stereogram image (e.g., `stereogram.png`).
+   - `<output_image>`: Path to save the output stereogram image (e.g., `stereogram.jpg`).
 
 #### 2. **Generate a Stereogram GIF**
 Create an animated stereogram from an input GIF:
@@ -73,7 +73,7 @@ Create an animated stereogram from an input GIF:
 ### Example 1: Generating a Stereogram
 To generate a stereogram from an image named `example.jpg` and save it as `output_stereogram.png`:
 ```bash
-python stereogram_generator.py show_stereogram example.jpg output_stereogram.png
+python stereogram_generator.py show_stereogram example.jpg output_stereogram.jpg
 ```
 
 ### Example 2: Creating a Stereogram GIF
@@ -89,4 +89,4 @@ python stereogram_generator.py generate_stereo_gif input_animation.gif output_an
 - Ensure your input files are valid images or GIFs.
 - The `show_stereogram` function will display the original image, depth map, and stereogram using Matplotlib.
 - The `generate_stereo_gif` function will create an animated stereogram GIF using all frames in the input GIF.
-```
+
