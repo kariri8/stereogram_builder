@@ -26,6 +26,7 @@ To run this project, ensure you have the following installed:
   - `matplotlib`
   - `Pillow`
   - `onnxruntime`
+  - `timm`
 
 ---
 
@@ -39,7 +40,7 @@ To run this project, ensure you have the following installed:
 
 2. Install the required libraries:
    ```bash
-   pip install opencv-python torch rembg numpy matplotlib Pillow onnxruntime
+   pip install opencv-python torch rembg numpy matplotlib Pillow onnxruntime timm
    ```
 
 ---
