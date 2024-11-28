@@ -71,7 +71,7 @@ Create an animated stereogram from an input GIF:
 ## Examples
 
 ### Example 1: Generating a Stereogram
-To generate a stereogram from an image named `example.jpg` and save it as `output_stereogram.png`:
+To generate a stereogram from an image named `example.jpg` and save it as `output_stereogram.jpg`:
 ```bash
 python stereogram_generator.py show_stereogram example.jpg output_stereogram.jpg
 ```
